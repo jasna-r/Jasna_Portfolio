@@ -1,0 +1,14 @@
+.projects-container{
+    width: 1250px;
+    margin-left: 250px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.projects-card-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -28px;
+}

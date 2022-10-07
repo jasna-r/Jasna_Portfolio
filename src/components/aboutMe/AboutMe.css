@@ -1,0 +1,11 @@
+.about-me-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 130px;
+    margin-top: 50px;
+}
+
+.about-me{
+    width: 450px;
+}

@@ -1,0 +1,29 @@
+.project-card-container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 30px;
+    background-color: lightgray;
+    border: 1px solid rgb(32, 30, 30);
+    
+}
+
+.project-img{
+    width: 100%;
+}
+
+h3{
+    padding-left: 15px;
+}
+.content{
+    margin: 0;
+    padding: 15px;
+}
+
+span{
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 15px 10px;
+}
