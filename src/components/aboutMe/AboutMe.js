@@ -7,20 +7,20 @@ const AboutMe = () => {
   return (
     <div className="about-me-container">
       <Image
+          
         src="https://d27jswm5an3efw.cloudfront.net/app/uploads/2019/03/convert-png-to-jpg-12.jpg"
+        
         alt="my image"
       />
       <div className="about-me">
         <h1>ABOUT ME</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+        I am freshly certified Front-End developer.
+          Just finished with the coding academy, and I am in need for an experience, to get experience.
         </p>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+        You can check my projects, the knowledge i have gained and the skills i have learned
+      . It's not much, but it's honest work.
         </p>
         <Button>Hire me!</Button>
       </div>
