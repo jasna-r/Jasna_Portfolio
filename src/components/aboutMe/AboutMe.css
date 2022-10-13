@@ -1,11 +1,18 @@
 .about-me-container{
+    /* background-color: rgb(231,131,86); */
+    /* background-color: #e5b3fe; */
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    margin-left: 130px;
+    margin-left: 75px; 
+    margin-right: 75px;
+    
     margin-top: 50px;
+    padding-bottom: 20px;
 }
 
-.about-me{
-    width: 450px;
+.about-me-content{
+    
+    width: 320px;
 }

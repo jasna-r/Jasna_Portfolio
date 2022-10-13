@@ -1,6 +1,9 @@
 .notes-container{
+    /* background-color: rgb(249,230,65); */
+    /* background-color: #ecbcfd; */
     display: flex;
     justify-content: space-evenly;
     margin-top: 40px;
-    margin-left: 120px;
+    margin-left: 75px; 
+    margin-right: 75px;
 }

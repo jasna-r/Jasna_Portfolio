@@ -1,13 +1,15 @@
 .navbar-container{
+    /* background-color: #ffcbf2; */
     display: flex;
     justify-content: space-between;
-    margin-left: 130px;
-    margin-right: 130px;
+    margin-left: 75px; 
+    margin-right: 75px;   
+    padding: 20px;
 
 }
 
 .navbar-links{
-    width: 320px;
+    width: 220px;
     display: flex;
     justify-content: space-between;
     align-items: center;

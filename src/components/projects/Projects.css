@@ -1,14 +1,24 @@
 .projects-container{
-    width: 1250px;
-    margin-left: 60px;
-    margin-top: 30px;
     display: flex;
+    /* background-color: rgb(30,31,93); */
+    
+    margin-top: 30px;
+    margin-left: 75px; 
+    margin-right: 75px;  
     flex-direction: column;
 
 }
 
 .projects-card-wrapper{
+    /* background-color: rgb(216,61,101); */
     display: flex;
     justify-content: space-between;
-    margin-left: -28px;
+    /* margin-left: -28px; */
+    
+}
+.project-paragraph {
+    padding-bottom: 20px;
+    /* text-align: center; */
+    font-size: 18px;
+    font-weight: 500;
 }

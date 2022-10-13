@@ -1,6 +1,6 @@
 import Button from "../button/Button"
-import Image from "../image/Image"
 import "./Introduction.css"
+import logo from "../../assets/my_photo.jpg"
 
 const Introduction = () => {
   return (
@@ -10,15 +10,19 @@ const Introduction = () => {
         <h1>MY NAME IS JASNA</h1>
         <p>
          Welcome to my portfolio.
+         Take a look around...
+         </p>
+         <p>
+         If you need hard-working Front-End Developer, organized and enthusiastic,
+        willing to learn and work for your company, let's get in touch!
+         
         </p>
-        <Button>Book a skype call</Button>
+        <Button>E-mail me</Button>
       </div>
 
-      <Image
-        src="https://d27jswm5an3efw.cloudfront.net/app/uploads/2019/03/convert-png-to-jpg-12.jpg"
-        alt="my image"
-      />
-    </div>
+      {/* <div className="image-wrapper"> */}
+      <img src={logo} alt="my profile" className="about-me-img"/></div>
+    // </div>
   )
 }
 
